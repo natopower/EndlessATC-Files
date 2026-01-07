@@ -1,13 +1,9 @@
 <?php
 ?><!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Natopower's EndlessATC Files</title>
-</head>
-<body>
-  
+
+  <h1>Natopower's EndlessATC Files</h1>
+
   <h2>Included Airports (for now)</h2>
   <ul>
     <li><strong>CYWG</strong> — Winnipeg / Richardson International Airport, Winnipeg, MB</li>
@@ -33,5 +29,4 @@
     Feel free to fork and customize for personal use. Or, if you have an improvement, make a pull request! 
   </p>
 
-</body>
 </html>
