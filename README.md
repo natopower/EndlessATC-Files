@@ -2,7 +2,7 @@
 ?><!doctype html>
 <html lang="en">
 
-  <h1>Natopower's EndlessATC Files</h1>
+  <h1>Nate Power's EndlessATC Files</h1>
 
   <h2>Included Airports (for now)</h2>
   <ul>
@@ -13,8 +13,8 @@
   <h2>Installation</h2>
   <ol>
     <li>Download the <code>.txt</code> file(s) (<code>CYWG.txt</code> and/or <code>CYEG.txt</code>).</li>
-    <li>Drag and drop the <code>.txt</code> file(s) into the <code>Locations</code> folder. It's probably under Program Files (x86)\Steam\steamapps\common\Endless ATC\locations.</li>
-    <li>Launch <em>Endless ATC</em> — the new airports should show up in the airport selection menu.</li>
+    <li>Drag and drop the <code>.txt</code> file(s) into the <code>Locations</code> folder. It's probably under <code>Program Files (x86)\Steam\steamapps\common\Endless ATC\locations</code>.</li>
+    <li>Launch EndlessATC, and the new airports should show up in the airport selection menu.</li>
   </ol>
 
   <h2>About</h2>
@@ -25,7 +25,7 @@
 
   <h2>Credits</h2>
   <p>
-    Created and maintained by <strong>Nate Power</strong>.<br />
+    Created and maintained by <strong>Nate Power</strong>.
     Feel free to fork and customize for personal use. Or, if you have an improvement, make a pull request! 
   </p>
 
