@@ -1,3 +1,5 @@
+
+
 [airspace]
 elevation = 783
 usa = true
@@ -96,23 +98,103 @@ entrypoints =
 	170, PEPNO, 10000
 	
 airlines =
-	aca, 7, a319/a320/a321/a223, air canada, nswe
-	jza, 6, crj9/dh8d/e75l, air canada express, nswe
-	wja, 7, b737/b738/b38m, westjet, nswe
-	wen, 5, dh8d, westjet encore, nswe
-	fle, 6, b738/b38m, flair, nswe
-	poe, 5, e190/e195, porter, nswe
-	dal, 2, crj9/e75l, delta connection, se
-	ual, 2, e75l/crj7, united express, se
-	bls, 2, sf34, bearskin, e
-	cav, 3, at43/at72, calm air, n
-	pem, 4, sw4/sf34, perimeter, n
-	cjt, 3, b752/b763, cargojet, nswe
-	fdx, 2, b752/b763, fedex, se
-	pul, 2, b752/b763, purolator, se
-	ups, 1, b752/b763, u p s, se
-	dhl, 1, b752/b763, d h l, se
-
+        WJA, 10.00, b737, Westjet, w
+        SKW, 6.60, e75l, Skywest, s
+        ACA, 6.42, a320, Air Canada, e
+        ACA, 6.04, a320, Air Canada, w
+        WEN, 3.77, dh8d, Encore, w
+        WJA, 3.40, b738, Westjet, s
+        WJA, 3.21, b38m, Westjet, w
+        ACA, 3.02, bcs3, Air Canada, e
+        WJA, 3.02, b38m, Westjet, e
+        WJA, 3.02, b738, Westjet, w
+        POE, 2.83, e295, Porter Air, e
+        PTR, 2.83, e295, Dash Port, e
+        WJA, 2.26, b38m, Westjet, s
+        AKT, 2.08, b734, Arctic, n
+        ACA, 1.89, a321, Air Canada, e
+        CAV, 1.89, at75, Calm Air, n
+        GLR, 1.89, b190, Glacier, w
+        MCB, 1.89, be20, Missinippi, n
+        CJT, 1.70, b763, Cargojet, e
+        CJT, 1.70, b763, Cargojet, w
+        JZA, 1.51, crj9, Jazz, w
+        JZA, 1.51, crj9, Jazz, e
+        WEN, 1.51, dh8d, Encore, e
+        WJA, 1.51, b738, Westjet, e
+        CJT, 1.32, b752, Cargojet, w
+        FLE, 1.32, b38m, Flair, e
+        MAL, 1.32, b752, Moringstar, e
+        WJA, 1.32, b737, Westjet, s
+        FDX, 1.13, a306, Fedex, s
+        FLE, 1.13, b38m, Flair, w
+        ACA, 0.94, a320, Air Canada, s
+        C-ABCD, 0.94, pc24, 0, w
+        CAV, 0.94, at72, Calm Air, e
+        MAL, 0.94, dhc2, Moringstar, e
+        UPS, 0.94, b752, UPS, s
+        CJT, 0.75, b752, Cargojet, e
+        MAL, 0.75, at72, Moringstar, w
+        MAL, 0.75, b752, Moringstar, w
+        MCB, 0.75, c550, Missinippi, n
+        ASP, 0.57, c25b, Airsprint, s
+        CJT, 0.57, b722, Cargojet, w
+        DAL, 0.57, e75l, Delta, s
+        FLE, 0.57, b738, Flair, e
+        ACA, 0.38, bcs3, Air Canada, w
+        ASP, 0.38, c25b, Airsprint, w
+        ASP, 0.38, c25b, Airsprint, e
+        C-ABCD, 0.38, sw4, 0, e
+        C-ABCD, 0.38, e545, 0, w
+        CAV, 0.38, at72, Calm Air, n
+        CAV, 0.38, at43, Calm Air, n
+        CAV, 0.38, at75, Calm Air, e
+        JZA, 0.38, dh8a, Jazz, e
+        KEW, 0.38, pc12, Blizzard, w
+        PAG, 0.38, sw4, Perimeter, w
+        WJA, 0.38, b737, Westjet, e
+        ACA, 0.19, b38m, Air Canada, e
+        ACA, 0.19, a321, Air Canada, w
+        ASP, 0.19, e545, Airsprint, s
+        ASP, 0.19, c25a, Airsprint, e
+        C-ABCD, 0.19, pc24, 0, e
+        C-ABCD, 0.19, e55p, 0, e
+        C-ABCD, 0.19, tbm9, 0, e
+        C-ABCD, 0.19, c560, 0, e
+        C-ABCD, 0.19, pc12, 0, e
+        C-ABCD, 0.19, pc24, 0, n
+        C-ABCD, 0.19, pc12, 0, w
+        C-ABCD, 0.19, be10, 0, e
+        C-ABCD, 0.19, be20, 0, e
+        C-ABCD, 0.19, b350, 0, w
+        C-ABCD, 0.19, c750, 0, e
+        C-ABCD, 0.19, da42, 0, w
+        CJT, 0.19, b722, Cargojet, n
+        CJT, 0.19, b763, Cargojet, n
+        CJT, 0.19, pa31, Cargojet, w
+        CJT, 0.19, pa31, Cargojet, e
+        CJT, 0.19, b722, Cargojet, e
+        CPT, 0.19, c208, Air Spur, s
+        DAL, 0.19, b752, Delta, s
+        DAL, 0.19, b752, Delta, e
+        EJA, 0.19, e55p, Execjet, e
+        EJA, 0.19, e55p, Execjet, w
+        JSX, 0.19, e145, Bigstripe, w
+        KEW, 0.19, pc12, Blizzard, n
+        LXJ, 0.19, cl30, Flexjet, s
+        MAL, 0.19, c408, Moringstar, w
+        MAL, 0.19, c408, Moringstar, e
+        MAL, 0.19, c208, Moringstar, e
+        MCB, 0.19, c550, Missinippi, e
+        MTS, 0.19, lj35, Medservice, s
+        N-123AB, 0.19, pa11, 0, w
+        N-123AB, 0.19, c68a, 0, s
+        N-123AB, 0.19, be20, 0, e
+        N-123AB, 0.19, c750, 0, s
+        PAG, 0.19, dh8c, Perimeter, n
+        PBR, 0.19, b350, Polar Bear, w
+        SKW, 0.19, e170, Skywest, s
+        SKW, 0.19, e75s, Skywest, s
 
 [configurations]
 
