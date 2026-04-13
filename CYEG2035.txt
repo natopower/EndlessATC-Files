@@ -1,0 +1,1206 @@
+[airspace]
+elevation = 2373
+usa = true
+transition = 18001
+center = N53.3097000122, W113.580001831
+radius = 60
+floor = 2500
+name = Future Edmonton Departure/Arrival
+automatic = true
+ceiling = 23000
+descendaltitude = 12000
+above = 23000
+transitionaltitude = 17999
+separation = 1
+handoff = 360, Edmonton Centre, Edmonton Centre, 122.37
+letters = 80
+diversion altitude = 13000
+speedrestriction = 0, 0, 10000, 250
+
+beacons =
+
+#STAR Entrypoints
+	
+	ELLKS, N53.270830, W114.685560, 0, Elks
+	IGSOX, N53.117500, W113.069440, 0, Ig Socks
+	OILRS, N52.624167, W113.519444, 0, Oilers
+	RESAX, N53.936167, W113.160000, 0, Re Sacks
+	TETAG, N54.071472, W114.132611, 0, Teetag
+
+line1 =
+	N54.15483, W115.37339
+	N54.20013, W115.17552
+	N54.28459, W115.02091
+
+line2 =
+	N52.39908, W115.48757
+	N52.38698, W115.39835
+	N52.40373, W115.30797
+	N52.39290, W115.21105
+	N52.35450, W115.10762
+	N52.34461, W115.02892
+	N52.36321, W114.97494
+	N52.46284, W114.98437
+	N52.64351, W115.05729
+	N52.73999, W115.11113
+	N52.75228, W115.14602
+	N52.78497, W115.16421
+	N52.83804, W115.16576
+	N52.87481, W115.18379
+	N52.89532, W115.21821
+	N52.94028, W115.22746
+	N53.00968, W115.21146
+	N53.05002, W115.15943
+	N53.06121, W115.07129
+	N53.08291, W115.01401
+	N53.13118, W114.97432
+	N53.27571, W114.84056
+	N53.32062, W114.72945
+	N53.31403, W114.59644
+	N53.33793, W114.48259
+	N53.39230, W114.38803
+	N53.39566, W114.26188
+	N53.34809, W114.10427
+	N53.33282, W113.94666
+	N53.34987, W113.78907
+	N53.38920, W113.69060
+	N53.45077, W113.65127
+	N53.49968, W113.56924
+	N53.53601, W113.44452
+	N53.62848, W113.30582
+	N53.77716, W113.15306
+	N53.87645, W113.02423
+	N53.92642, W112.91933
+	N53.97510, W112.85587
+	N54.02259, W112.83391
+	N54.03184, W112.73185
+	N54.00298, W112.54964
+	N54.00611, W112.41001
+	N54.04130, W112.31291
+	N54.02190, W112.19294
+	N53.94795, W112.05011
+	N53.90782, W111.91978
+	N53.90157, W111.80196
+	N53.86968, W111.73744
+	N53.81217, W111.72628
+
+[airport1]
+name = Edmonton International Airport
+code = CYEG35
+runways =
+	rwy1, 02, N53.3089, W113.596, 33.9, 11000, 0, 0, 2322
+	rwy2, 12R, N53.31077778, W113.60494444, 135.1, 12000, 0, 0, 2325
+	rwy3, 12L, N53.33619444, W113.60566667, 135.1, 10000, 0, 0, 2325
+
+climbaltitude = 5000
+
+entrypoints = 
+	270, ELLKS, 14000
+	090, IGSOX, 10000
+	180, OILRS, 13000
+	020, RESAX, 15000
+	340, TETAG, 15000
+
+airlines =
+        WEN, 10.00, dh8d, Encore, w
+        WJA, 9.33, b738, Westjet, s
+        FLE, 8.44, b38m, Flair, w
+        WJA, 7.11, b38m, Westjet, s
+        WEN, 6.89, dh8d, Encore, s
+        WJA, 6.67, b738, Westjet, w
+        WJA, 6.67, b737, Westjet, s
+        WJA, 6.67, b737, Westjet, e
+        JZA, 6.00, dh8d, Jazz, s
+        AKT, 5.78, b737, Arctic, n
+        PTR, 5.56, e295, Dash Port, e
+        WJA, 5.33, b38m, Westjet, w
+        WJA, 5.33, b737, Westjet, w
+        WEN, 5.11, dh8d, Encore, e
+        ACA, 4.89, bcs3, Air Canada, e
+        C-ABCD, 4.89, be20, 0, n
+        ACA, 4.00, a321, Air Canada, e
+        ROU, 4.00, b38m, Rouge, w
+        WEN, 4.00, dh8d, Encore, n
+        WJA, 3.78, b738, Westjet, e
+        ACA, 3.56, bcs3, Air Canada, w
+        ACA, 3.56, b38m, Air Canada, e
+        POE, 3.56, e295, Porter Air, e
+        WJA, 3.56, b38m, Westjet, e
+        CWA, 3.33, be20, Can West, w
+        JZA, 3.33, crj9, Jazz, w
+        UAL, 3.33, b738, United, s
+        WJA, 3.33, b737, Westjet, n
+        AKT, 3.11, b733, Arctic, n
+        C-ABCD, 2.89, be20, 0, e
+        FLE, 2.44, b38m, Flair, e
+        ACA, 2.00, a320, Air Canada, w
+        CWA, 2.00, be20, Can West, n
+        CWA, 2.00, be20, Can West, e
+        AKT, 1.78, b737, Arctic, s
+        CWA, 1.78, b350, Can West, e
+        JZA, 1.78, crj9, Jazz, n
+        QXE, 1.78, e75l, Horizon Air, w
+        UAL, 1.78, b737, United, s
+        WJA, 1.78, b738, Westjet, n
+        CNK, 1.56, b190, Chinock, s
+        SUT, 1.56, rj1h, Summit, n
+        GLR, 1.33, b190, Glacier, w
+        KLM, 1.33, a332, KLM, n
+        ASP, 1.11, c25b, Airsprint, s
+        MAL, 1.11, b752, Moringstar, e
+        NRL, 1.11, b732, Nolinor, n
+        ANT, 0.89, b738, Air North, w
+        C-ABCD, 0.89, pc24, 0, e
+        C-ABCD, 0.89, be20, 0, s
+        CJT, 0.89, b763, Cargojet, e
+        CNK, 0.89, dh8c, Chinock, s
+        CWA, 0.89, b350, Can West, n
+        FDX, 0.89, a306, Fedex, e
+        ACA, 0.67, a320, Air Canada, e
+        ACA, 0.67, b38m, Air Canada, s
+        AKT, 0.67, b734, Arctic, n
+        ARQ, 0.67, b350, Airco, n
+        ASP, 0.67, c25b, Airsprint, w
+        ASP, 0.67, e545, Airsprint, s
+        C-ABCD, 0.67, cl60, 0, s
+        CJT, 0.67, b763, Cargojet, w
+        CJT, 0.67, b752, Cargojet, s
+        CWA, 0.67, b350, Can West, w
+        GLR, 0.67, b190, Glacier, n
+        NCB, 0.67, dh8c, North Caribou, s
+        SUT, 0.67, rj1h, Summit, s
+        ACA, 0.44, a320, Air Canada, s
+        ACA, 0.44, a321, Air Canada, s
+        ACA, 0.44, b38m, Air Canada, w
+        ANT, 0.44, b738, Air North, s
+        ASP, 0.44, c303, Airsprint, s
+        C-ABCD, 0.44, c172, 0, s
+        C-ABCD, 0.44, b350, 0, n
+        C-ABCD, 0.44, b350, 0, w
+        C-ABCD, 0.44, cl35, 0, s
+        C-ABCD, 0.44, be10, 0, s
+        C-ABCD, 0.44, c560, 0, s
+        C-ABCD, 0.44, fa50, 0, s
+        CJT, 0.44, b763, Cargojet, s
+        CNK, 0.44, be20, Chinock, s
+        CNK, 0.44, dh8b, Chinock, s
+        CNK, 0.44, b190, Chinock, n
+        CWA, 0.44, c208, Can West, n
+        CWA, 0.44, b350, Can West, s
+        FDX, 0.44, b763, Fedex, e
+        FLE, 0.44, b738, Flair, w
+        FLE, 0.44, b38m, Flair, s
+        MBK, 0.44, b738, Matblack, e
+        NCB, 0.44, b190, North Caribou, s
+        NCB, 0.44, dh8c, North Caribou, n
+        NCB, 0.44, b190, North Caribou, w
+        VAL, 0.44, dh8c, Voyageur, n
+        ACA, 0.22, b789, Air Canada, e
+        AKT, 0.22, b733, Arctic, e
+        ASP, 0.22, c25b, Airsprint, e
+        ASP, 0.22, c25a, Airsprint, w
+        ASP, 0.22, e550, Airsprint, s
+        C-ABCD, 0.22, pc12, 0, w
+        C-ABCD, 0.22, pc24, 0, n
+        C-ABCD, 0.22, c560, 0, w
+        C-ABCD, 0.22, be10, 0, n
+        C-ABCD, 0.22, c25c, 0, s
+        C-ABCD, 0.22, c172, 0, w
+        C-ABCD, 0.22, c414, 0, s
+        C-ABCD, 0.22, f900, 0, s
+        C-ABCD, 0.22, e545, 0, w
+        CFC, 0.22, c17, CanForce, e
+        CJT, 0.22, pa31, Cargojet, e
+        CNK, 0.22, lj45, Chinock, s
+        CNK, 0.22, b190, Chinock, w
+        CNK, 0.22, b350, Chinock, w
+        CNK, 0.22, dh8b, Chinock, e
+        CNK, 0.22, dh8c, Chinock, n
+        CRN, 0.22, g115, Carson, w
+        CWA, 0.22, be20, Can West, s
+        DZR, 0.22, cl30, Dozer, e
+        EJA, 0.22, c68a, Execjet, e
+        FLE, 0.22, b738, Flair, e
+        KAL, 0.22, b748, Koreanair, s
+        MAL, 0.22, c408, Moringstar, w
+        MAL, 0.22, at72, Moringstar, s
+        NVC, 0.22, crj2, Nav Can, e
+        PXT, 0.22, c25b, Pack Coast, s
+        SLG, 0.22, be20, Lifeguard, e
+        SUT, 0.22, at72, Summit, n
+        SUT, 0.22, rj85, Summit, s
+        VJA, 0.22, cl30, Iconic, s
+
+[configurations]
+
+# LAND/DEP 12R + 12L
+config1 =
+	0,	rwy2, startland, 135.1, nosid
+	0,	rwy3, startland, 135.1, nosid
+
+# LAND/DEP 30R + 30L
+config2 =
+	0,	rwy2, startlandrev, 315.1, nosid
+	0,	rwy3, startlandrev, 315.1, nosid
+
+# LAND 12R, DEP 12L
+config3 =
+	0,	rwy2, land, 135.1, nosid
+	0,	rwy3, start, 135.1, nosid
+
+# LAND 12L, DEP 12R
+config4 =
+	0,	rwy3, land, 135.1, nosid
+	0,	rwy2, start, 135.1, nosid
+
+# LAND 30R, DEP 30L
+config5 =
+	0,	rwy2, landrev, 315.1, nosid
+	0,	rwy3, startrev, 315.1, nosid
+
+# LAND 30L, DEP 30R
+config6 =
+	0,	rwy3, landrev, 315.1, nosid
+	0,	rwy2, startrev, 315.1, nosid
+
+# LAND 12R + 12L, DEP 02
+config7 =
+	0,	rwy1, start, 33.9, nosid
+	0,	rwy2, land, 135.1, nosid
+	0,	rwy3, land, 135.1, nosid
+
+# LAND 30R + 30L, DEP 20
+config8 =
+	0,	rwy1, startrev, 213.9, nosid
+	0,	rwy2, landrev, 315.1, nosid
+	0,	rwy3, landrev, 315.1, nosid
+
+# LAND 02, DEP 12R + 12L
+config9 =
+	0,	rwy1, land, 33.9, nosid
+	0,	rwy2, start, 135.1, nosid
+	0,	rwy3, start, 135.1, nosid
+
+# LAND 20, DEP 30R + 30L
+config10 =
+	0,	rwy1, landrev, 213.9, nosid
+	0,	rwy2, startrev, 315.1, nosid
+	0,	rwy3, startrev, 315.1, nosid
+
+# LAND 30R + 30L, DEP 02
+config11 =
+	0,	rwy1, start, 33.9, nosid
+	0,	rwy2, landrev, 315.1, nosid
+	0,	rwy3, landrev, 315.1, nosid
+
+# LAND 12R + 12L, DEP 20
+config12 =
+	0,	rwy1, startrev, 213.9, nosid
+	0,	rwy2, land, 135.1, nosid
+	0,	rwy3, land, 135.1, nosid
+
+# LAND/DEP 02 only
+config13 =
+	0,	rwy1, startland, 33.9, nosid
+
+# LAND/DEP 20 only
+config14 =
+	0,	rwy1, startlandrev, 213.9, nosid
+
+# LAND/DEP 12R only
+config15 =
+	0,	rwy2, startland, 135.1, nosid
+
+# LAND/DEP 12L only
+config16 =
+	0,	rwy3, startland, 135.1, nosid
+
+# LAND/DEP 30R only
+config17 =
+	0,	rwy2, startlandrev, 315.1, nosid
+
+# LAND/DEP 30L only
+config18 =
+	0,	rwy3, startlandrev, 315.1, nosid
+
+# RNAV Z 02 VIGVI
+[approach1]
+runway = rwy1
+beacon = VIGVI, N53.213306, W113.879139, 110, Vigvi
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.213306, W113.879139, 5000, 210
+	N53.165028, W113.763250, 5000, 190
+	N53.256250, W113.657472, 3600, 170
+	3.8, 3600, 33.9
+
+# RNAV Z 02 HAMPO
+[approach2]
+runway = rwy1
+beacon = HAMPO, N53.165028, W113.763250, 33.9, Hampo
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.165028, W113.763250, 5000, 190
+	N53.256250, W113.657472, 3600, 170
+	3.8, 3600, 33.9
+
+# RNAV Z 02 BIPNA
+[approach3]
+runway = rwy1
+beacon = BIPNA, N53.116639, W113.647667, 290, Bipna
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.116639, W113.647667, 5000, 210
+	N53.165028, W113.763250, 5000, 190
+	N53.256250, W113.657472, 3600, 170
+	3.8, 3600, 33.9
+
+# RNAV Z 02 LENID
+[approach4]
+runway = rwy1
+beacon = LENID, N53.095667, W113.671944, 307, Lenid
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.095667, W113.671944, 5000, 210
+	N53.165028, W113.763250, 5000, 190
+	N53.256250, W113.657472, 3600, 170
+	3.8, 3600, 33.9
+
+# RNAV Y 02 APKIT
+[approach5]
+runway = rwy1
+beacon = APKIT, N53.288139, W114.030722, 090, Apkit
+route1 =
+	000, RY, R Naav Yankee
+	N53.288139, W114.030722, 8000, 220
+	N53.239639, W113.734167, 4000, 200
+	N53.256250, W113.657472, 3600, 170
+	3.8, 3600, 33.9
+
+# RNAV Y 02 MASUD
+[approach6]
+runway = rwy1
+beacon = MASUD, N53.046333, W113.554611, 324, Masud
+route1 =
+	000, RY, R Naav Yankee
+	N53.046333, W113.554611, 7500, 220
+	N53.216583, W113.665306, 4000, 200
+	N53.256250, W113.657472, 3600, 170
+	3.8, 3600, 33.9
+
+# RNAV Z 12R MIPOT
+[approach7]
+runway = rwy2
+beacon = MIPOT, N53.429444, W113.802611, 135.1, Mipot
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.429444, W113.802611, 5000, 190
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Z 12R BEMIG
+[approach8]
+runway = rwy2
+beacon = BEMIG, N53.369250, W113.902361, 030, Bemig
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.369250, W113.902361, 5000, 210
+	N53.429444, W113.802611, 5000, 190
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Z 12R OBSUK
+[approach9]
+runway = rwy2
+beacon = OBSUK, N53.489500, W113.702583, 210, Obsuk
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.489500, W113.702583, 5000, 210
+	N53.429444, W113.802611, 5000, 190
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12R APKIT
+[approach10]
+runway = rwy2
+beacon = APKIT, N53.288139, W114.030072, 044, Apkit
+route1 = 
+	000, RY, R Naav Yankee
+	N53.288139, W114.030072, 8000, 220
+	N53.375778, W113.788056, 5000, 200
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12R TULID
+[approach11]
+runway = rwy2
+beacon = TULID, N53.283972, W113.758694, 300, Tulid
+route1 = 
+	000, RY, R Naav Yankee
+	N53.283972, W113.758694, 7000, 210
+	N53.309417, W113.801444, 6000, 200
+	N53.375778, W113.788056, 5000, 200
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12R DAVRU
+[approach12]
+runway = rwy2
+beacon = DAVRU, N53.424972, W113.594083, 300, Davru
+route1 = 
+	000, RY, R Naav Yankee
+	N53.424972, W113.594083, 7600, 210
+	N53.448470, W113.633560, 6000, 190
+	N53.457889, W113.709556, 5000, 190
+	N53.388444, W113.733583, 4200, 190
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12R TILOV
+[approach13]
+runway = rwy2
+beacon = TILOV, N53.502417, W113.518972, 234, Tilov
+route1 = 
+	000, RY, R Naav Yankee
+	N53.502417, W113.518972, 8000, 210
+	N53.457889, W113.709556, 5000, 190
+	N53.388444, W113.733583, 4200, 190
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Z 20 GABET
+[approach14]
+runway = rwy1, rev
+beacon = GABET, N53.466556, W113.411417, 213.9, Gabet
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.466556, W113.411417, 5000, 190
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Z 20 DUDKO
+[approach15]
+runway = rwy1, rev
+beacon = DUDKO, N53.514611, W113.526333, 110, Dukdo
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.514611, W113.526333, 5000, 210
+	N53.466556, W113.411417, 5000, 190
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Z 20 VOGAP
+[approach16]
+runway = rwy1, rev
+beacon = VOGAP, N53.418417, W113.296778, 290, Vogap
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.418417, W113.296778, 5000, 210
+	N53.466556, W113.411417, 5000, 190
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Y 20 VIPSO
+[approach17]
+runway = rwy1, rev
+beacon = VIPSO, N53.591944, W113.749167, 117, Vipso
+route1 = 
+	000, RY, R Naav Yankee
+	N53.591944, W113.749167, 6000, 230
+	N53.457389, W113.497333, 4000, 200
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Y 20 UMIBA
+[approach18]
+runway = rwy1, rev
+beacon = UMIBA, N53.422111, W113.634694, 020, Umiba
+route1 = 
+	000, RY, R Naav Yankee
+	N53.422111, W113.634694, 7000, 210
+	N53.450417, W113.601250, 6000, 200
+	N53.457389, W113.497333, 4000, 200
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Y 20 UDLAR
+[approach19]
+runway = rwy1, rev
+beacon = UDLAR, N53.325694, W113.405861, 020, Udlar
+route1 = 
+	000, RY, R Naav Yankee
+	N53.325694, W113.405861, 7000, 210
+	N53.354528, W113.372306, 6000, 200
+	N53.386028, W113.361000, 5000, 200
+	N53.420667, W113.411139, 4500, 200
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Y 20 GOPEV
+[approach20]
+runway = rwy1, rev
+beacon = GOPEV, N53.262278, W113.322694, 020, Gopev
+route1 = 
+	000, RY, R Naav Yankee
+	N53.262278, W113.322694, 8000, 220
+	N53.386028, W113.361000, 5000, 200
+	N53.420667, W113.411139, 4500, 200
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RNAV Z 30 JEVON
+[approach21]
+runway = rwy2, rev
+beacon = JEVON, N53.163944, W113.358778, 315.1, Jevon
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.163944, W113.358778, 5000, 190
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Z 30 SUVAT
+[approach22]
+runway = rwy2, rev
+beacon = SUVAT, N53.104167, W113.458556, 030, Suvat
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.104167, W113.458556, 5000, 210
+	N53.163944, W113.358778, 5000, 190
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Z 30 LOBTI
+[approach23]
+runway = rwy2, rev
+beacon = LOBTI, N53.223667, W113.258750, 210, Lobti
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.223667, W113.258750, 5000, 210
+	N53.163944, W113.358778, 5000, 190
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30 KISOD
+[approach24]
+runway = rwy2, rev
+beacon = KISOD, N53.190055, W113.601444, 120, Kisod
+route1 = 
+	000, RY, R Naav Yankee
+	N53.190055, W113.601444, 7000, 210
+	N53.164861, W113.559056, 6000, 200
+	N53.175940, W113.446640, 5000, 200
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30 MASUD
+[approach25]
+runway = rwy2, rev
+beacon = MASUD, N53.046333, W113.554611, 012, Masud
+route1 = 
+	000, RY, R Naav Yankee
+	N53.046333, W113.554611, 7500, 220
+	N53.175940, W113.446640, 5000, 200
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30 LETIX
+[approach26]
+runway = rwy2, rev
+beacon = LETIX, N53.373667, W113.317167, 171, Letix
+route1 = 
+	000, RY, R Naav Yankee
+	N53.373667, W113.317167, 8000, 220
+	N53.250055, W113.340055, 5500, 200
+	N53.217667, W113.375222, 5000, 200
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30 OMENA
+[approach27]
+runway = rwy2, rev
+beacon = OMENA, N53.330833, W113.436694, 120, Letix
+route1 = 
+	000, RY, R Naav Yankee
+	N53.330833, W113.436694, 7700, 210
+	N53.284361, W113.359778, 6000, 200
+	N53.250055, W113.340055, 5500, 200
+	N53.217667, W113.375222, 5000, 200
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+
+# ARRIVALS
+
+# ELLKS 02
+[approach28]
+runway = rwy1
+beacon = ELLKS, N53.270830, W114.685560, 0, Elks
+route1 =
+	000, ELLKS3, Elks three runway 0 2 transition
+	N53.270830, W114.685560, 15000, 250
+	N53.288139, W114.030722, 8000, 220
+	N53.213306, W113.879139, 5000, 210
+	N53.164306, W113.935583, 5000, 210
+	end, 213.9
+
+# ELLKS 12R
+[approach29]
+runway = rwy2
+beacon = ELLKS, N53.270830, W114.685560, 0, Elks
+route1 =
+	000, ELLKS3, Elks three runway 1 2 transition
+	N53.270830, W114.685560, 15000, 250
+	N53.288139, W114.030722, 8000, 220
+	N53.369250, W113.902361, 5000, 210
+	N53.411361, W113.973639, 5000, 210
+	end, 315.1
+
+# ELLKS 30
+[approach30]
+runway = rwy2, rev
+beacon = ELLKS, N53.270830, W114.685560, 0, Elks
+route1 =
+	000, ELLKS3, Elks three runway 3 0 transition
+	N53.270830, W114.685560, 15000, 250
+	N53.288139, W114.030722, 12000, 220
+	N53.297611, W113.781611, 10000, 220
+	N53.236972, W113.679861, 8000, 220
+	N53.190056, W113.601444, 7000, 210
+	N53.104167, W113.458556, 5000, 210
+	N53.041472, W113.354806, 5000, 210
+	end, 135.1
+
+# ELLKS 20
+[approach31]
+runway = rwy1, rev
+beacon = ELLKS, N53.270830, W114.685560, 0, Elks
+route1 =
+	000, ELLKS3, Elks three runway 2 0 transition
+	N53.270830, W114.685560, 15000, 250
+	N53.288139, W114.030722, 12000, 220
+	N53.297611, W113.781611, 10000, 220
+	N53.367861, W113.698972, 8000, 220
+	N53.422111, W113.634694, 7000, 210
+	N53.514611, W113.526333, 5000, 210
+	N53.570500, W113.460611, 5000, 210
+	end, 33.9
+
+# IGSOX 02
+[approach32]
+runway = rwy1
+beacon = IGSOX, N53.117500, W113.069440, 0, Ig Socks
+route1 = 
+	000, IGSOX3, Ig Socks three runway 0 2 transition
+	N53.117500, W113.069440, 13000, 250
+	N53.262278, W113.322694, 10000, 230
+	N53.274861, W113.463361, 8000, 230
+	N53.192278, W113.559778, 7000, 230
+	N53.116639, W113.647667, 5000, 210
+	N53.039667, W113.736667, 5000, 210
+	end, 213.9
+
+# IGSOX 12R
+[approach33]
+runway = rwy2
+beacon = IGSOX, N53.117500, W113.069440, 0, Ig Socks
+route1 = 
+	000, IGSOX3, Ig Socks three runway 1 2 transition
+	N53.117500, W113.069440, 13000, 250
+	N53.262278, W113.322694, 10000, 230
+	N53.378000, W113.515417, 8000, 230
+	N53.424972, W113.594083, 7600, 210
+	N53.489500, W113.702583, 5000, 210
+	N53.509444, W113.736222, 5000, 210
+	end, 315.1
+
+# IGSOX 30
+[approach34]
+runway = rwy2, rev
+beacon = IGSOX, N53.117500, W113.069440, 0, Ig Socks
+route1 = 
+	000, IGSOX3, Ig Socks three runway 3 0 transition
+	N53.117500, W113.069440, 10000, 250
+	N53.163944, W113.358778, 5000, 190
+	N53.224778, W113.459722, 4100, 170
+	5.2, 4000, 315.1
+	
+# IGSOX 20
+[approach35]
+runway = rwy1, rev
+beacon = IGSOX, N53.117500, W113.069440, 0, Ig Socks
+route1 = 
+	000, IGSOX3, Ig Socks three runway 2 0 transition
+	N53.117500, W113.069440, 10000, 250
+	N53.262278, W113.322694, 8000, 220
+	N53.418417, W113.296778, 5000, 210
+	N53.446528, W113.262083, 5000, 210
+	end, 33.9
+
+# OILRS 02
+[approach36]
+runway = rwy1
+beacon = OILRS, N52.624167, W113.519444, 0, Oilers
+route1 = 
+	000, OILRS2, Oilers two runway 0 2 transition
+	N52.624167, W113.519444, 16000, 250
+	N53.046333, W113.554611, 7500, 220
+	N53.095667, W113.671944, 5000, 210
+	N53.039667, W113.736667, 5000, 210
+	end, 213.9
+
+# OILRS 30
+[approach37]
+runway = rwy2, rev
+beacon = OILRS, N52.624167, W113.519444, 0, Oilers
+route1 = 
+	000, OILRS2, Oilers two runway 3 0 transition
+	N52.624167, W113.519444, 16000, 250
+	N53.046333, W113.554611, 7500, 220
+	N53.104167, W113.458556, 5000, 210
+	N53.041472, W113.354806, 5000, 210
+	end, 135.1
+
+# OILRS 12R
+[approach38]
+runway = rwy2
+beacon = OILRS, N52.624167, W113.519444, 0, Oilers
+route1 = 
+	000, OILRS2, Oilers two runway 1 2 transition
+	N52.624167, W113.519444, 16000, 250
+	N53.046333, W113.554611, 10000, 250
+	N53.176250, W113.578417, 9000, 230
+	N53.236972, W113.679861, 8000, 230
+	N53.283972, W113.758694, 7000, 210
+	N53.369250, W113.902361, 5000, 210
+	N53.411361, W113.973639, 5000, 210
+	end, 315.1
+
+# OILRS 20
+[approach39]
+runway = rwy1, rev
+beacon = OILRS, N52.624167, W113.519444, 0, Oilers
+route1 = 
+	000, OILRS2, Oilers two runway 2 0 transition
+	N52.624167, W113.519444, 16000, 250
+	N53.046333, W113.554611, 10000, 250
+	N53.176250, W113.578417, 9000, 230
+	N53.247083, W113.496861, 8000, 230
+	N53.325694, W113.405861, 7000, 210
+	N53.325694, W113.405861, 5000, 210
+	N53.446528, W113.262084, 5000, 210
+	end, 33.9
+
+# RESAX 02
+[approach40]
+runway = rwy1
+beacon = RESAX, N53.936167, W113.160000, 0, Re Sacks
+route1 = 
+	000, RESAX1, Re Sacks one runway 0 2 transition
+	N53.936167, W113.160000, 17000, 250
+	N53.606389, W113.355278, 10000, 230
+	N53.274861, W113.463361, 8000, 230
+	N53.192278, W113.559778, 7000, 210
+	N53.116639, W113.647667, 5000, 210
+	N53.039667, W113.736667, 5000, 210
+	end, 213.9
+
+# RESAX 12R
+[approach41]
+runway = rwy2
+beacon = RESAX, N53.936167, W113.160000, 0, Re Sacks
+route1 = 
+	000, RESAX1, Re Sacks one runway 1 2 transition
+	N53.936167, W113.160000, 17000, 250
+	N53.606389, W113.355278, 10000, 230
+	N53.502147, W113.518900, 8000, 210
+	N53.489500, W113.702583, 5000, 210
+	N53.509444, W113.736222, 5000, 210
+	end, 315.1
+
+# RESAX 20
+[approach42]
+runway = rwy1, rev
+beacon = RESAX, N53.936167, W113.160000, 0, Re Sacks
+route1 = 
+	000, RESAX1, Re Sacks one runway 2 0 transition
+	N53.936167, W113.160000, 17000, 250
+	N53.606389, W113.355278, 8000, 250
+	N53.466556, W113.411417, 5000, 190
+	N53.402361, W113.486833, 4000, 170
+	5.1, 4000, 213.9
+
+# RESAX 30
+[approach43]
+runway = rwy2, rev
+beacon = RESAX, N53.936167, W113.160000, 0, Re Sacks
+route1 = 
+	000, RESAX1, Re Sacks one runway 3 0 transition
+	N53.936167, W113.160000, 17000, 250
+	N53.606389, W113.355278, 10000, 250
+	N53.516333, W113.363333, 9500, 240
+	N53.373667, W113.317167, 8000, 220
+	N53.223667, W113.258750, 5000, 210
+	N53.160833, W113.155028, 5000, 210
+	end, 135.1
+
+# TETAG 02
+[approach44]
+runway = rwy1
+beacon = TETAG, N54.071472, W114.132611, 0, Teetag
+route1 = 
+	000, TETAG2, Re Teetag two runway 0 2 transition
+	N54.071472, W114.132611, 18000, 250
+	N53.972500, W114.052972, 17000, 250
+	N53.846944, W113.952500, 16000, 250
+	N53.580000, W113.749167, 10000, 250
+	N53.438056, W113.616056, 9000, 230
+	N53.367861, W113.698972, 8000, 230
+	N53.313528, W113.763167, 7000, 230
+	N53.213306, W113.879139, 5000, 210
+	N53.164305, W113.935583, 5000, 210
+	end, 213.9
+
+# TETAG 30
+[approach45]
+runway = rwy2, rev
+beacon = TETAG, N54.071472, W114.132611, 0, Teetag
+route1 = 
+	000, TETAG2, Re Teetag two runway 3 0 transition
+	N54.071472, W114.132611, 18000, 250
+	N53.972500, W114.052972, 17000, 250
+	N53.846944, W113.952500, 16000, 250
+	N53.580000, W113.749167, 10000, 250
+	N53.438056, W113.616056, 9000, 230
+	N53.378000, W113.515417, 8000, 230
+	N53.330833, W113.436694, 7700, 210
+	N53.223670, W113.258750, 5000, 210
+	N53.160833, W113.155028, 5000, 210
+	end, 135.1
+
+# TETAG 12R
+[approach46]
+runway = rwy2
+beacon = TETAG, N54.071472, W114.132611, 0, Teetag
+route1 = 
+	000, TETAG2, Re Teetag two runway 1 2 transition
+	N54.071472, W114.132611, 18000, 250
+	N53.972500, W114.052972, 17000, 250
+	N53.846944, W113.952500, 16000, 250
+	N53.429444, W113.802611, 5000, 190
+	N53.369500, W113.701694, 4100, 170
+	5.4, 4100, 135.1
+
+# TETAG 20
+[approach47]
+runway = rwy1, rev
+beacon = TETAG, N54.071472, W114.132611, 0, Teetag
+route1 = 
+	000, TETAG2, Re Teetag two runway 1 2 transition
+	N54.071472, W114.132611, 18000, 250
+	N53.972500, W114.052972, 17000, 250
+	N53.846944, W113.952500, 16000, 250
+	N53.580000, W113.749167, 8500, 230
+	N53.514611, W113.526333, 5000, 210
+	N53.570500, W113.460611, 5000, 210
+	end, 33.9
+
+
+
+
+
+
+# ELLKS 12L
+[approach55]
+runway = rwy3
+beacon = ELLKS, N53.270830, W114.685560, 0, Elks
+route1 =
+	000, ELLKS3, Elks three runway 1 2 transition
+	N53.270830, W114.685560, 15000, 250
+	N53.288139, W114.030722, 8000, 220
+	N53.369250, W113.902361, 5000, 210
+	N53.411361, W113.973639, 5000, 210
+	end, 315.1
+
+# IGSOX 12L
+[approach56]
+runway = rwy3
+beacon = IGSOX, N53.117500, W113.069440, 0, Ig Socks
+route1 = 
+	000, IGSOX3, Ig Socks three runway 1 2 transition
+	N53.117500, W113.069440, 13000, 250
+	N53.262278, W113.322694, 10000, 230
+	N53.378000, W113.515417, 8000, 230
+	N53.424972, W113.594083, 7600, 210
+	N53.489500, W113.702583, 5000, 210
+	N53.509444, W113.736222, 5000, 210
+	end, 315.1
+
+# OILRS 12L
+[approach57]
+runway = rwy3
+beacon = OILRS, N52.624167, W113.519444, 0, Oilers
+route1 = 
+	000, OILRS2, Oilers two runway 1 2 transition
+	N52.624167, W113.519444, 16000, 250
+	N53.046333, W113.554611, 10000, 250
+	N53.176250, W113.578417, 9000, 230
+	N53.236972, W113.679861, 8000, 230
+	N53.283972, W113.758694, 7000, 210
+	N53.369250, W113.902361, 5000, 210
+	N53.411361, W113.973639, 5000, 210
+	end, 315.1
+
+# RESAX 12L
+[approach58]
+runway = rwy3
+beacon = RESAX, N53.936167, W113.160000, 0, Re Sacks
+route1 = 
+	000, RESAX1, Re Sacks one runway 1 2 transition
+	N53.936167, W113.160000, 17000, 250
+	N53.606389, W113.355278, 10000, 230
+	N53.502147, W113.518900, 8000, 210
+	N53.489500, W113.702583, 5000, 210
+	N53.509444, W113.736222, 5000, 210
+	end, 315.1
+
+# TETAG 12L
+[approach59]
+runway = rwy3
+beacon = TETAG, N54.071472, W114.132611, 0, Teetag
+route1 = 
+	000, TETAG2, Re Teetag two runway 1 2 transition
+	N54.071472, W114.132611, 18000, 250
+	N53.972500, W114.052972, 17000, 250
+	N53.846944, W113.952500, 16000, 250
+	N53.453978, W113.802211, 5000, 190
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+
+# RNAV Z 12L NIPOT
+[approach48]
+runway = rwy3
+beacon = NIPOT, N53.453978, W113.802211, 135.1, Nipot
+route1 =
+	000, RZ, R Naav Zulu
+	N53.453978, W113.802211, 5000, 190
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Z 12L BEMIG
+[approach49]
+runway = rwy3
+beacon = BEMIG, N53.369250, W113.902361, 030, Bemig
+route1 = 
+	000, RZ, R Naav Zulu
+	N53.369250, W113.902361, 5000, 210
+	N53.453978, W113.802211, 5000, 190
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Z 12L OBSUK
+[approach50]
+runway = rwy3
+beacon = OBSUK, N53.489500, W113.702583, 210, Obsuk
+route1 =
+	000, RZ, R Naav Zulu
+	N53.489500, W113.702583, 5000, 210
+	N53.453978, W113.802211, 5000, 190
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12L APKIT
+[approach51]
+runway = rwy3
+beacon = APKIT, N53.288139, W114.030072, 044, Apkit
+route1 = 
+	000, RY, R Naav Yankee
+	N53.288139, W114.030072, 8000, 220
+	N53.375778, W113.788056, 5000, 200
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12L TULID
+[approach52]
+runway = rwy3
+beacon = TULID, N53.283972, W113.758694, 300, Tulid
+route1 = 
+	000, RY, R Naav Yankee
+	N53.283972, W113.758694, 7000, 210
+	N53.309417, W113.801444, 6000, 200
+	N53.375778, W113.788056, 5000, 200
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12L DAVRU
+[approach53]
+runway = rwy3
+beacon = DAVRU, N53.424972, W113.594083, 300, Davru
+route1 = 
+	000, RY, R Naav Yankee
+	N53.424972, W113.594083, 7600, 210
+	N53.448470, W113.633560, 6000, 190
+	N53.457889, W113.709556, 5000, 190
+	N53.413864, W113.734303, 4200, 190
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Y 12L TILOV
+[approach54]
+runway = rwy3
+beacon = TILOV, N53.502417, W113.518972, 234, Tilov
+route1 =
+	000, RY, R Naav Yankee
+	N53.502417, W113.518972, 8000, 210
+	N53.457889, W113.709556, 5000, 190
+	N53.413864, W113.734303, 4200, 190
+	N53.394289, W113.701156, 4100, 170
+	5.4, 4100, 135.1
+
+# RNAV Z 30L NEVON
+[approach60]
+runway = rwy3, rev
+beacon = NEVON, N53.189364, W113.359498, 315.1, Nevon
+route1 =
+	000, RZ, R Naav Zulu
+	N53.189364, W113.359498, 5000, 190
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Z 30L SUVAT
+[approach61]
+runway = rwy3, rev
+beacon = SUVAT, N53.104167, W113.458556, 030, Suvat
+route1 =
+	000, RZ, R Naav Zulu
+	N53.104167, W113.458556, 5000, 210
+	N53.189364, W113.359498, 5000, 190
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Z 30L LOBTI
+[approach62]
+runway = rwy3, rev
+beacon = LOBTI, N53.223667, W113.258750, 210, Lobti
+route1 =
+	000, RZ, R Naav Zulu
+	N53.223667, W113.258750, 5000, 210
+	N53.189364, W113.359498, 5000, 190
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30L KISOD
+[approach63]
+runway = rwy3, rev
+beacon = KISOD, N53.190055, W113.601444, 120, Kisod
+route1 =
+	000, RY, R Naav Yankee
+	N53.190055, W113.601444, 7000, 210
+	N53.164861, W113.559056, 6000, 200
+	N53.175940, W113.446640, 5000, 200
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30L MASUD
+[approach64]
+runway = rwy3, rev
+beacon = MASUD, N53.046333, W113.554611, 012, Masud
+route1 =
+	000, RY, R Naav Yankee
+	N53.046333, W113.554611, 7500, 220
+	N53.175940, W113.446640, 5000, 200
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30L LETIX
+[approach65]
+runway = rwy3, rev
+beacon = LETIX, N53.373667, W113.317167, 171, Letix
+route1 =
+	000, RY, R Naav Yankee
+	N53.373667, W113.317167, 8000, 220
+	N53.250055, W113.340055, 5500, 200
+	N53.217667, W113.375222, 5000, 200
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# RNAV Y 30L OMENA
+[approach66]
+runway = rwy3, rev
+beacon = OMENA, N53.330833, W113.436694, 120, Omena
+route1 =
+	000, RY, R Naav Yankee
+	N53.330833, W113.436694, 7700, 210
+	N53.284361, W113.359778, 6000, 200
+	N53.250055, W113.340055, 5500, 200
+	N53.217667, W113.375222, 5000, 200
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# ELLKS 30L
+[approach67]
+runway = rwy3, rev
+beacon = ELLKS, N53.270830, W114.685560, 0, Elks
+route1 =
+	000, ELLKS3, Elks three runway 3 0 transition
+	N53.270830, W114.685560, 15000, 250
+	N53.288139, W114.030722, 12000, 220
+	N53.297611, W113.781611, 10000, 220
+	N53.236972, W113.679861, 8000, 220
+	N53.190056, W113.601444, 7000, 210
+	N53.104167, W113.458556, 5000, 210
+	N53.066892, W113.355526, 5000, 210
+	end, 135.1
+
+# IGSOX 30L
+[approach68]
+runway = rwy3, rev
+beacon = IGSOX, N53.117500, W113.069440, 0, Ig Socks
+route1 =
+	000, IGSOX3, Ig Socks three runway 3 0 transition
+	N53.117500, W113.069440, 10000, 250
+	N53.189364, W113.359498, 5000, 190
+	N53.250198, W113.460442, 4100, 170
+	5.2, 4000, 315.1
+
+# OILRS 30L
+[approach69]
+runway = rwy3, rev
+beacon = OILRS, N52.624167, W113.519444, 0, Oilers
+route1 =
+	000, OILRS2, Oilers two runway 3 0 transition
+	N52.624167, W113.519444, 16000, 250
+	N53.046333, W113.554611, 7500, 220
+	N53.104167, W113.458556, 5000, 210
+	N53.066892, W113.355526, 5000, 210
+	end, 135.1
+
+# RESAX 30L
+[approach70]
+runway = rwy3, rev
+beacon = RESAX, N53.936167, W113.160000, 0, Re Sacks
+route1 =
+	000, RESAX1, Re Sacks one runway 3 0 transition
+	N53.936167, W113.160000, 17000, 250
+	N53.606389, W113.355278, 10000, 250
+	N53.516333, W113.363333, 9500, 240
+	N53.373667, W113.317167, 8000, 220
+	N53.223667, W113.258750, 5000, 210
+	N53.186253, W113.155748, 5000, 210
+	end, 135.1
+
+# TETAG 30L
+[approach71]
+runway = rwy3, rev
+beacon = TETAG, N54.071472, W114.132611, 0, Teetag
+route1 =
+	000, TETAG2, Re Teetag two runway 3 0 transition
+	N54.071472, W114.132611, 18000, 250
+	N53.972500, W114.052972, 17000, 250
+	N53.846944, W113.952500, 16000, 250
+	N53.580000, W113.749167, 10000, 250
+	N53.438056, W113.616056, 9000, 230
+	N53.378000, W113.515417, 8000, 230
+	N53.330833, W113.436694, 7700, 210
+	N53.223670, W113.258750, 5000, 210
+	N53.186253, W113.155748, 5000, 210
+	end, 135.1
