@@ -101,33 +101,134 @@ entrypoints =
 	340, TETAG, 15000
 
 airlines =
-	aca, 8, a319/a320/a321/a223/b788/b789, air canada, nswe
-	jza, 6, crj9/dh8d/e75l, air canada express, nswe
-
-	wja, 8, b737/b738/b38m/b763/b789, westjet, nswe
-	wen, 5, dh8d, westjet encore, nswe
-
-	poe, 4, e190/e195, porter, nswe
-	fle, 4, b738/b38m, flair, nswe
-	swg, 3, b738/b38m, sunwing, s
-	tsc, 2, a321/a332, air transat, e
-
-	dal, 3, a319/a320/e75l/crj9, delta, se
-	ual, 3, a319/a320/e75l/crj7, united, se
-	aal, 2, a319/a320/e75l, american, se
-	asa, 2, b737/b738/e75l, alaska, s
-
-	bls, 2, sf34, bearskin, n
-	cav, 3, at43/at72, calm air, n
-	pem, 3, sw4/sf34, perimeter, n
-	akn, 2, b190, alkan air, n
-	ant, 2, at43, air north, n
-
-	cjt, 4, b752/b763, cargojet, nswe
-	fdx, 3, b752/b763, fedex, se
-	ups, 2, b752/b763, u p s, se
-	dhl, 2, b752/b763, d h l, se
-	pul, 2, b752/b763, purolator, se
+        WEN, 10.00, dh8d, Encore, w
+        WJA, 9.33, b738, Westjet, s
+        FLE, 8.44, b38m, Flair, w
+        WJA, 7.11, b38m, Westjet, s
+        WEN, 6.89, dh8d, Encore, s
+        WJA, 6.67, b738, Westjet, w
+        WJA, 6.67, b737, Westjet, s
+        WJA, 6.67, b737, Westjet, e
+        JZA, 6.00, dh8d, Jazz, s
+        AKT, 5.78, b737, Arctic, n
+        PTR, 5.56, e295, Dash Port, e
+        WJA, 5.33, b38m, Westjet, w
+        WJA, 5.33, b737, Westjet, w
+        WEN, 5.11, dh8d, Encore, e
+        ACA, 4.89, bcs3, Air Canada, e
+        C-ABCD, 4.89, be20, 0, n
+        ACA, 4.00, a321, Air Canada, e
+        ROU, 4.00, b38m, Rouge, w
+        WEN, 4.00, dh8d, Encore, n
+        WJA, 3.78, b738, Westjet, e
+        ACA, 3.56, bcs3, Air Canada, w
+        ACA, 3.56, b38m, Air Canada, e
+        POE, 3.56, e295, Porter Air, e
+        WJA, 3.56, b38m, Westjet, e
+        CWA, 3.33, be20, Can West, w
+        JZA, 3.33, crj9, Jazz, w
+        UAL, 3.33, b738, United, s
+        WJA, 3.33, b737, Westjet, n
+        AKT, 3.11, b733, Arctic, n
+        C-ABCD, 2.89, be20, 0, e
+        FLE, 2.44, b38m, Flair, e
+        ACA, 2.00, a320, Air Canada, w
+        CWA, 2.00, be20, Can West, n
+        CWA, 2.00, be20, Can West, e
+        AKT, 1.78, b737, Arctic, s
+        CWA, 1.78, b350, Can West, e
+        JZA, 1.78, crj9, Jazz, n
+        QXE, 1.78, e75l, Horizon Air, w
+        UAL, 1.78, b737, United, s
+        WJA, 1.78, b738, Westjet, n
+        CNK, 1.56, b190, Chinock, s
+        SUT, 1.56, rj1h, Summit, n
+        GLR, 1.33, b190, Glacier, w
+        KLM, 1.33, a332, KLM, n
+        ASP, 1.11, c25b, Airsprint, s
+        MAL, 1.11, b752, Moringstar, e
+        NRL, 1.11, b732, Nolinor, n
+        ANT, 0.89, b738, Air North, w
+        C-ABCD, 0.89, pc24, 0, e
+        C-ABCD, 0.89, be20, 0, s
+        CJT, 0.89, b763, Cargojet, e
+        CNK, 0.89, dh8c, Chinock, s
+        CWA, 0.89, b350, Can West, n
+        FDX, 0.89, a306, Fedex, e
+        ACA, 0.67, a320, Air Canada, e
+        ACA, 0.67, b38m, Air Canada, s
+        AKT, 0.67, b734, Arctic, n
+        ARQ, 0.67, b350, Airco, n
+        ASP, 0.67, c25b, Airsprint, w
+        ASP, 0.67, e545, Airsprint, s
+        C-ABCD, 0.67, cl60, 0, s
+        CJT, 0.67, b763, Cargojet, w
+        CJT, 0.67, b752, Cargojet, s
+        CWA, 0.67, b350, Can West, w
+        GLR, 0.67, b190, Glacier, n
+        NCB, 0.67, dh8c, North Caribou, s
+        SUT, 0.67, rj1h, Summit, s
+        ACA, 0.44, a320, Air Canada, s
+        ACA, 0.44, a321, Air Canada, s
+        ACA, 0.44, b38m, Air Canada, w
+        ANT, 0.44, b738, Air North, s
+        ASP, 0.44, c303, Airsprint, s
+        C-ABCD, 0.44, c172, 0, s
+        C-ABCD, 0.44, b350, 0, n
+        C-ABCD, 0.44, b350, 0, w
+        C-ABCD, 0.44, cl35, 0, s
+        C-ABCD, 0.44, be10, 0, s
+        C-ABCD, 0.44, c560, 0, s
+        C-ABCD, 0.44, fa50, 0, s
+        CJT, 0.44, b763, Cargojet, s
+        CNK, 0.44, be20, Chinock, s
+        CNK, 0.44, dh8b, Chinock, s
+        CNK, 0.44, b190, Chinock, n
+        CWA, 0.44, c208, Can West, n
+        CWA, 0.44, b350, Can West, s
+        FDX, 0.44, b763, Fedex, e
+        FLE, 0.44, b738, Flair, w
+        FLE, 0.44, b38m, Flair, s
+        MBK, 0.44, b738, Matblack, e
+        NCB, 0.44, b190, North Caribou, s
+        NCB, 0.44, dh8c, North Caribou, n
+        NCB, 0.44, b190, North Caribou, w
+        VAL, 0.44, dh8c, Voyageur, n
+        ACA, 0.22, b789, Air Canada, e
+        AKT, 0.22, b733, Arctic, e
+        ASP, 0.22, c25b, Airsprint, e
+        ASP, 0.22, c25a, Airsprint, w
+        ASP, 0.22, e550, Airsprint, s
+        C-ABCD, 0.22, pc12, 0, w
+        C-ABCD, 0.22, pc24, 0, n
+        C-ABCD, 0.22, c560, 0, w
+        C-ABCD, 0.22, be10, 0, n
+        C-ABCD, 0.22, c25c, 0, s
+        C-ABCD, 0.22, c172, 0, w
+        C-ABCD, 0.22, c414, 0, s
+        C-ABCD, 0.22, f900, 0, s
+        C-ABCD, 0.22, e545, 0, w
+        CFC, 0.22, c17, CanForce, e
+        CJT, 0.22, pa31, Cargojet, e
+        CNK, 0.22, lj45, Chinock, s
+        CNK, 0.22, b190, Chinock, w
+        CNK, 0.22, b350, Chinock, w
+        CNK, 0.22, dh8b, Chinock, e
+        CNK, 0.22, dh8c, Chinock, n
+        CRN, 0.22, g115, Carson, w
+        CWA, 0.22, be20, Can West, s
+        DZR, 0.22, cl30, Dozer, e
+        EJA, 0.22, c68a, Execjet, e
+        FLE, 0.22, b738, Flair, e
+        KAL, 0.22, b748, Koreanair, s
+        MAL, 0.22, c408, Moringstar, w
+        MAL, 0.22, at72, Moringstar, s
+        NVC, 0.22, crj2, Nav Can, e
+        PXT, 0.22, c25b, Pack Coast, s
+        SLG, 0.22, be20, Lifeguard, e
+        SUT, 0.22, at72, Summit, n
+        SUT, 0.22, rj85, Summit, s
+        VJA, 0.22, cl30, Iconic, s
 
 [configurations]
 
@@ -165,6 +266,11 @@ config7 =
 # LAND/DEP 20, 30
 config8 =
 	0,	rwy1, startlandrev, 213.9, nosid
+	0,	rwy2, startlandrev, 315.1, nosid
+
+# LAND/DEP 02, 30
+config9 =
+	0,	rwy1, startland, 33.9, nosid
 	0,	rwy2, startlandrev, 315.1, nosid
 
 # RNAV Z 02 VIGVI
